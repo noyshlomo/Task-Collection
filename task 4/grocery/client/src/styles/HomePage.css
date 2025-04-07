@@ -1,0 +1,95 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-header {
+    margin-bottom: 3rem;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .user-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .user-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-card h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .user-card p {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+    border: 2px solid #3498db;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+  }
+  
+  .btn-outline-primary {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .user-options {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
